@@ -1,0 +1,48 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.resume{
+    margin-top: 20px;
+    width: 90vw;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+}
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color:white;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
